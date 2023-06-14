@@ -1,5 +1,7 @@
 options(repos=structure(c(CRAN="https://cran.rstudio.com/")))
-install.packages(c('RODBC', 'maps', 'pheatmap', 'readr', 'tidyr', 'dplyr', 'RJSONIO', 'shinyapps', 'knitr', "gplots", "ggrepel", "ggfortify", "gghalves", "tidyverse", "stringr", "optparse", "circlize", "statmod", "RColorBrewer", "VennDiagram", "UpSetR", "cowplot", "tidymodels", "targets", "reticulate"))
-
-
-
+## install.packages(c('RODBC', 'maps', 'pheatmap', 'readr', 'tidyr', 'dplyr', 'RJSONIO', 'shinyapps', 'knitr', 'gplots', 'ggrepel', 'ggfortify', 'gghalves', 'tidyverse', 'stringr', 'optparse', 'circlize', 'statmod', 'RColorBrewer', 'VennDiagram', 'UpSetR', 'cowplot', 'tidymodels', 'targets', 'reticulate', 'remotes', 'rmarkdown', 'signal', 'ggvenn'))
+update.packages(ask = FALSE)
+install.packages(c('ggplot2','dplyr', 'remotes'))
+## remotes::install_github('rformassspectrometry/SpectraQL')
+## remotes::install_github('workflow4metabolomics/W4MRUtils')
+## remotes::install_github('RogerGinBer/RHermes')
